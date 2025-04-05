@@ -1,0 +1,11 @@
+services:
+  squid:
+    build: .
+    container_name: squid_container
+    ports:
+      - "3128:3128"
+    restart: unless-stopped
+    volumes:
+      - ./squid.conf:/etc/squid/squid.conf
+      - ./logs:/var/log/squid
+    command: ["squid", "-N", "-d", "1"]
