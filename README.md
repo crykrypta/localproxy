@@ -1,6 +1,6 @@
 # Squid Proxy Service
 
-Простой HTTP/HTTPS прокси-сервер с аутентификацией, развернутый в Docker.
+**Proxy-server** по `localhost` с аутентификацией в изолированной **OS** `Ubuntu 20.04` с помощью **Docker**
 
 ## Requirements
 - Docker
