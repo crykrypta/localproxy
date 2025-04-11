@@ -18,6 +18,13 @@ squid_proxy_service/
 
 ## Быстрый старт
 
+0. Установка докер (Если еще нет на сервере)
+
+```shell
+sudo apt update
+sudo apt install -y docker.io docker-compose
+```
+
 1. Перенос файлов
 ```
 scp -r username@host:/home/username/some_folder ./external_codedestination
